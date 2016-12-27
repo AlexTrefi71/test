@@ -1,6 +1,10 @@
+var $ = require('jquery');
+var str = require('./constants');
+
 var App = function() {
-    console.log('App: init');
+    // console.log(str);
+    $('body').html(str);
 };
 
 var app = new App();
-app();
+app.get = function() {};
