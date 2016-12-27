@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/AlexTrefi71/test/issues"
   },
-  "homepage": "https://github.com/AlexTrefi71/test#readme"
+  "homepage": "https://github.com/AlexTrefi71/test#readme",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "webpack": "^1.14.0"
+  }
 }
